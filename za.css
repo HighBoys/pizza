@@ -1,0 +1,94 @@
+body{
+overflow-x: hidden;
+}
+
+.menu:hover{
+    border-width: 2px;
+    border-style: solid;
+    border-color: gold;
+}
+
+.menu.active{
+    color: white;
+}
+.hero{
+    background-image: url(image/hero.jpeg);
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.bg-hero{
+    width: 80px;
+    height: 80px;
+}
+
+.hero-text{
+    display: flex;
+    justify-content: center;
+}
+
+.piza{
+    font-size: 75px;
+}
+
+.sosmed{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    size: 50px;
+}
+
+.dark{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.head{
+    font-family: playball;
+    font-size: 75px;
+}
+
+.foot{
+    font-family: playball;
+    font-size: 30px;
+}
+
+.about{
+    background-image: url(image/about-us.jpeg);
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+}
+
+p.des{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.follow{
+    background-image: url(image/follow-us.jpeg);
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+}
+
+.foot1{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.isi{
+    text-align: justify;
+}
